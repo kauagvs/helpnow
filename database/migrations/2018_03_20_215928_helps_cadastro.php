@@ -11,7 +11,7 @@ class HelpsCadastro extends Migration
     {
         Schema::create('helps_cadastro', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nome');
+            $table->string('problema');
             $table->integer('data');
             $table->string('descricao');
             $table->string('status');

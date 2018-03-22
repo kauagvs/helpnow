@@ -59,12 +59,16 @@
                         </tr>
                       </thead>
                       <tbody>
+
+                        @foreach ($help as %help)
                         <tr>
-                          <td><a href="javascript:void(0)" class="text-muted">1</a></td>
-                          <td>Notebook não liga</td>
-                          <td>Toda vez que inicio o notebook ele faz um som estranho e não liga</td>
-                          <td>Aberto</td>
-                        </tr>                
+                          <td>{{ $help->id}}</td>
+                          <td>{{ $help->problema}}</td>
+                          <td>{{ $help->descricao}}</td>
+                          <td>{{ $help->status}}</td>
+                        </tr> 
+                        @endforeach    
+
                       </tbody>
                     </table>
                   </div>
