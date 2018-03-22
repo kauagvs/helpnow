@@ -12,7 +12,7 @@
         
         <ul class="list-unstyled">
           <li class="active"><a href="{{ url('dash') }}"> <i class="icon-home"></i>Home </a></li>
-          <li><a href="{{ url('problemas') }}"> <i class="icon-padnote"></i>Problemas </a></li>
+          <li><a href="{{ url('listar_helps') }}"> <i class="icon-padnote"></i>Helps </a></li>
           <li><a href="{{ url('dash') }}"> <i class="icon-interface-windows"></i>Configurações</a></li>
         </ul>
 

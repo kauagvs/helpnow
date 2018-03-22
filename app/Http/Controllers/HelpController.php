@@ -9,13 +9,13 @@ class HelpController extends Controller
 
     public function index()
     {
-        return view('HelpNow/HelpController/help');
+        return view('HelpNow.HelpController.listar');
     }
 
 
     public function create()
     {
-        //
+        return view('HelpNow.HelpController.adicionar');
     }
 
 

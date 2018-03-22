@@ -9,7 +9,7 @@ Route::resource('/','HomeController');
 
 Route::resource('/dash','DashController');
 
-Route::resource('/problemas','HelpController');
+Route::resource('/listar_helps','HelpController');
 
 
 Auth::routes();
